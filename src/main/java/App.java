@@ -1,7 +1,6 @@
 import Model.Vehicle;
 import Parser.FileReader;
 import Parser.JsonParser;
-
 import java.util.List;
 
 public class App {
@@ -27,9 +26,8 @@ public class App {
         System.out.println(jarmu.toString());}
     }
 
-
     //loading animation
-    public static void loadingScreen() {
+    public void loadingScreen() {
         for (int i = 0; i < 3; i++) {
             try {
                 Thread.sleep(350);
